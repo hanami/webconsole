@@ -8,4 +8,5 @@ unless ENV["TRAVIS"]
   gem "yard",   require: false
 end
 
+gem "hanami",          git: "https://github.com/hanami/hanami.git",   require: false, branch: "develop"
 gem "hanami-devtools", git: "https://github.com/hanami/devtools.git", require: false
