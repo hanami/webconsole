@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "Hanami webconsole"
   spec.description   = "Hanami webconsole for development"
   spec.homepage      = "http://hanamirb.org"
+  spec.license       = "MIT"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
