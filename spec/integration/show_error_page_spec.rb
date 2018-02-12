@@ -29,7 +29,7 @@ CODE
   private
 
   def with_project
-    super("bookshelf", gems: { "hanami-webconsole" => { groups: [:development], path: Pathname.new(__dir__).join("..", "..", "..").realpath.to_s } }) do
+    super("bookshelf", gems: { "hanami-webconsole" => { groups: [:development], path: Pathname.new(__dir__).join("..", "..").realpath.to_s } }) do
       yield
     end
   end
