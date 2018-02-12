@@ -5,6 +5,7 @@
 ## Status
 
 [![Gem Version](http://img.shields.io/gem/v/hanami-webconsole.svg)](https://badge.fury.io/rb/hanami-webconsole)
+[![Build Status](http://img.shields.io/travis/hanami/webconsole/master.svg)](https://travis-ci.org/hanami/webconsole?branch=master)
 
 ## Installation
 
