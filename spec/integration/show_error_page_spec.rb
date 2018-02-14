@@ -28,8 +28,9 @@ CODE
 
   private
 
-  def with_project
-    super("bookshelf", gems: { "hanami-webconsole" => { groups: [:development], path: Pathname.new(__dir__).join("..", "..").realpath.to_s } }) do
+  def with_project(*args)
+    super(*args) do
+      replace "Gemfile", "hanami-webconsole", %(gem "hanami-webconsole", path: "#{Pathname.new(__dir__).join('..', '..').realpath}")
       yield
     end
   end
