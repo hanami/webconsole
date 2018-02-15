@@ -1,0 +1,15 @@
+pipeline:
+  build:
+    image: ${RUBY_VERSION}
+    commands:
+      - ruby -v
+      - gem --version
+      - bundle install --retry=4 --jobs=4
+      - ./script/ci
+
+matrix:
+  RUBY_VERSION:
+    - ruby:2.3.6
+    - ruby:2.4.2
+    - ruby:2.5.0
+    - jruby:9.1.15.0
