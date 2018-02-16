@@ -12,4 +12,3 @@ matrix:
     - ruby:2.3.6
     - ruby:2.4.2
     - ruby:2.5.0
-    - jruby:9.1.15.0-jdk
