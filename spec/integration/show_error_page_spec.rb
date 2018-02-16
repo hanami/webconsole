@@ -31,6 +31,7 @@ CODE
   def with_project(*args)
     super(*args) do
       replace "Gemfile", "hanami-webconsole", %(gem "hanami-webconsole", path: "#{Pathname.new(__dir__).join('..', '..').realpath}")
+      bundle_install
       yield
     end
   end
