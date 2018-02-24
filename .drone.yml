@@ -4,18 +4,6 @@ pipeline:
     commands:
       - ./script/ci qa
 
-  specs_mri_23:
-    group: build
-    image: ruby:2.3.6
-    commands:
-      - ./script/ci
-
-  specs_mri_24:
-    group: build
-    image: ruby:2.4.2
-    commands:
-      - ./script/ci
-
   specs_mri_25:
     group: build
     image: ruby:2.5.0
