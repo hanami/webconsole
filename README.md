@@ -20,7 +20,7 @@ end
 And then execute:
 
 ```shell
-$ bundle
+$ bundle install
 ```
 
 **NOTE:** You need a version of `hanami` `1.2.0+`.
