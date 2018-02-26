@@ -1,0 +1,11 @@
+pipeline:
+  rubocop:
+    image: ruby:latest
+    commands:
+      - ./script/ci qa
+
+  specs_mri_25:
+    group: build
+    image: ruby:2.5.0
+    commands:
+      - ./script/ci
