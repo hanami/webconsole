@@ -1,4 +1,3 @@
-
 # frozen_string_literal: true
 
 lib = File.expand_path("../lib", __FILE__)
@@ -24,7 +23,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "better_errors", "~> 2.4"
-  spec.add_dependency "binding_of_caller", "~> 0.8"
 
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 12.0"

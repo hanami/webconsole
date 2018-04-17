@@ -22,6 +22,10 @@ gem "hanami",             "~> 1.2", require: false, git: "https://github.com/han
 
 gem "hanami-devtools", git: "https://github.com/hanami/devtools.git", require: false
 
+platforms :mri do
+  gem "binding_of_caller", "~> 0.8"
+end
+
 platforms :ruby do
   gem 'sqlite3'
 end
