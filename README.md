@@ -2,10 +2,14 @@
 
 [Hanami](http://hanamirb.org) development web console.
 
+## Version
+
+**This branch contains the code for `hanami-webconsole` 0.1.x.**
+
 ## Status
 
 [![Gem Version](http://img.shields.io/gem/v/hanami-webconsole.svg)](https://badge.fury.io/rb/hanami-webconsole)
-[![Build Status](http://img.shields.io/travis/hanami/webconsole/master.svg)](https://travis-ci.org/hanami/webconsole?branch=master)
+[![Build Status](http://img.shields.io/travis/hanami/webconsole/0.1.x.svg)](https://travis-ci.org/hanami/webconsole?branch=0.1.x)
 
 ## Installation
 
