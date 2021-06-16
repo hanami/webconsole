@@ -8,8 +8,11 @@
 
 ## Status
 
-[![Gem Version](http://img.shields.io/gem/v/hanami-webconsole.svg)](https://badge.fury.io/rb/hanami-webconsole)
-[![Build Status](http://img.shields.io/travis/hanami/webconsole/0.1.x.svg)](https://travis-ci.org/hanami/webconsole?branch=0.1.x)
+[![Gem Version](https://badge.fury.io/rb/hanami-webconsole.svg)](https://badge.fury.io/rb/hanami-webconsole)
+[![CI](https://github.com/hanami/webconsole/workflows/ci/badge.svg?branch=0.1.x)](https://github.com/hanami/webconsole/actions?query=workflow%3Aci+branch%3A0.1.x)
+[![Test Coverage](https://codecov.io/gh/hanami/webconsole/branch/0.1.x/graph/badge.svg)](https://codecov.io/gh/hanami/webconsole)
+[![Depfu](https://badges.depfu.com/badges/a8545fb67cf32a2c75b6227bc0821027/overview.svg)](https://depfu.com/github/hanami/webconsole?project=Bundler)
+[![Inline Docs](http://inch-ci.org/github/hanami/webconsole.svg)](http://inch-ci.org/github/hanami/webconsole)
 
 ## Installation
 
