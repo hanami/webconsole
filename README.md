@@ -2,10 +2,17 @@
 
 [Hanami](http://hanamirb.org) development web console.
 
+## Version
+
+**This branch contains the code for `hanami-webconsole` 2.x.**
+
 ## Status
 
-[![Gem Version](http://img.shields.io/gem/v/hanami-webconsole.svg)](https://badge.fury.io/rb/hanami-webconsole)
-[![Build Status](http://img.shields.io/travis/hanami/webconsole/master.svg)](https://travis-ci.org/hanami/webconsole?branch=master)
+[![Gem Version](https://badge.fury.io/rb/hanami-webconsole.svg)](https://badge.fury.io/rb/hanami-webconsole)
+[![CI](https://github.com/hanami/webconsole/workflows/ci/badge.svg?branch=main)](https://github.com/hanami/webconsole/actions?query=workflow%3Aci+branch%3Amain)
+[![Test Coverage](https://codecov.io/gh/hanami/webconsole/branch/main/graph/badge.svg)](https://codecov.io/gh/hanami/webconsole)
+[![Depfu](https://badges.depfu.com/badges/a8545fb67cf32a2c75b6227bc0821027/overview.svg)](https://depfu.com/github/hanami/webconsole?project=Bundler)
+[![Inline Docs](http://inch-ci.org/github/hanami/webconsole.svg)](http://inch-ci.org/github/hanami/webconsole)
 
 ## Installation
 
