@@ -1,4 +1,3 @@
-
 # frozen_string_literal: true
 
 lib = File.expand_path("../lib", __FILE__)
@@ -10,23 +9,17 @@ Gem::Specification.new do |spec|
   spec.version       = Hanami::Webconsole::VERSION
   spec.authors       = ["Luca Guidi"]
   spec.email         = ["me@lucaguidi.com"]
-
   spec.summary       = "Hanami webconsole"
   spec.description   = "Hanami webconsole for development"
   spec.homepage      = "http://hanamirb.org"
   spec.license       = "MIT"
 
-  spec.metadata["allowed_push_host"] = "https://rubygems.org"
-
-  spec.files         = `git ls-files -- lib/* CHANGELOG.md LICENSE.md README.md hanami-webconsole.gemspec`.split($INPUT_RECORD_SEPARATOR)
-  spec.bindir        = "exe"
-  spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
+  spec.files = `git ls-files -- lib/* CHANGELOG.md LICENSE.md README.md hanami-webconsole.gemspec`.split($INPUT_RECORD_SEPARATOR)
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "better_errors", "~> 2.4"
-  spec.add_dependency "binding_of_caller", "~> 0.8"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
-  spec.add_development_dependency "bundler", ">= 1.16", "< 3"
-  spec.add_development_dependency "rake", "~> 12.0"
-  spec.add_development_dependency "rspec", "~> 3.7"
+  # Avoid 2.10.0 until https://github.com/BetterErrors/better_errors/issues/516 is fixed
+  spec.add_dependency "better_errors", "~> 2.9", "< 2.10.0"
+  spec.add_dependency "binding_of_caller", "~> 0.8"
 end
