@@ -1,7 +1,19 @@
 # Hanami::Webconsole
 Hanami development web console.
 
+## v2.1.0.beta1
+
+### Added
+
+- [Tim Riley] Introduce `Hanami::Webconsole::Middleware`, a Rack middleware automatically used in
+  the Hanami app when hanami-webconsole is bundled (#6)
+
+### Changed
+
+- [Tim Riley] Remove the Hanami v1 plugin (#6)
+
 ## v0.2.0 - 2019-01-18
+
 ### Added
 - [Luca Guidi] Official support for Ruby 2.6.0
 - [Luca Guidi] Support for `bundler` 2.0+
