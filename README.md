@@ -64,4 +64,4 @@ This gem is based on the great work of [`better_errors`](https://rubygems.org/ge
 
 ## Copyright
 
-Copyright © 2018 Luca Guidi – Released under MIT License
+Copyright © 2014 Hanami Team – Released under MIT License

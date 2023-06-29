@@ -1,7 +1,7 @@
 # Hanami::Webconsole
 Hanami development web console.
 
-## v2.1.0.beta1
+## v2.1.0.beta1 - 2023-06-29
 
 ### Added
 
@@ -15,6 +15,7 @@ Hanami development web console.
 ## v0.2.0 - 2019-01-18
 
 ### Added
+
 - [Luca Guidi] Official support for Ruby 2.6.0
 - [Luca Guidi] Support for `bundler` 2.0+
 
@@ -27,5 +28,7 @@ Hanami development web console.
 ## v0.1.0.beta2 - 2018-03-23
 
 ## v0.1.0.beta1 - 2018-02-28
+
 ### Added
+
 - [Luca Guidi & Anton Davydov] Package as Hanami plugin
