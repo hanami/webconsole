@@ -67,6 +67,8 @@ module Hanami
 
       private
 
+      # @api private
+      # @since 2.1.0
       def configure_better_errors
         BetterErrors.application_root = @config.root.to_s
       end

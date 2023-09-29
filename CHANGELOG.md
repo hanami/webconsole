@@ -1,6 +1,12 @@
 # Hanami::Webconsole
 Hanami development web console.
 
+## v2.1.0.beta2 - 2023-10-04
+
+### Fixed
+
+- [Tim Riley] Set correct error codes for Hanami app exceptions
+
 ## v2.1.0.beta1 - 2023-06-29
 
 ### Added
