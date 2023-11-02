@@ -1,6 +1,8 @@
 # Hanami::Webconsole
 Hanami development web console.
 
+## v2.1.0.rc1 - 2023-11-02
+
 ## v2.1.0.beta2 - 2023-10-04
 
 ### Fixed
