@@ -19,7 +19,6 @@ Gem::Specification.new do |spec|
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
-  # Avoid 2.10.0 until https://github.com/BetterErrors/better_errors/issues/516 is fixed
-  spec.add_dependency "better_errors", "~> 2.9", "< 2.10.0"
+  spec.add_dependency "better_errors", "~> 2.10", ">= 2.10.1"
   spec.add_dependency "binding_of_caller", "~> 1.0"
 end
