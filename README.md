@@ -2,19 +2,16 @@
 
 [Hanami](http://hanamirb.org) development web console.
 
-## Version
-
-**This branch contains the code for `hanami-webconsole` 2.x.**
-
 ## Status
 
 [![Gem Version](https://badge.fury.io/rb/hanami-webconsole.svg)](https://badge.fury.io/rb/hanami-webconsole)
-[![CI](https://github.com/hanami/webconsole/workflows/ci/badge.svg?branch=main)](https://github.com/hanami/webconsole/actions?query=workflow%3Aci+branch%3Amain)
+[![CI](https://github.com/hanami/webconsole/actions/workflows/ci.yml/badge.svg)](https://github.com/hanami/webconsole/actions?query=workflow%3Aci+branch%3Amain)
 [![Test Coverage](https://codecov.io/gh/hanami/webconsole/branch/main/graph/badge.svg)](https://codecov.io/gh/hanami/webconsole)
 [![Depfu](https://badges.depfu.com/badges/a8545fb67cf32a2c75b6227bc0821027/overview.svg)](https://depfu.com/github/hanami/webconsole?project=Bundler)
-[![Inline Docs](http://inch-ci.org/github/hanami/webconsole.svg)](http://inch-ci.org/github/hanami/webconsole)
 
 ## Installation
+
+__Hanami::Webconsole__ supports Ruby (MRI) 3.1+.
 
 Add this line to your Hanami project's `Gemfile`:
 
@@ -30,7 +27,7 @@ And then execute:
 $ bundle install
 ```
 
-**NOTE:** You need a version of `hanami` `1.2.0+`.
+**NOTE:** You need a version of `hanami` `2.0.0+`.
 
 ## Usage
 
@@ -38,7 +35,7 @@ When an exception is raised during your local development in-browser, you'll see
 
 ### Code reloading
 
-This gem in incompatible with `hanami` code reloading.
+This gem in **not compatible** with `hanami` code reloading.
 
 In order to use this gem, you have two alternatives:
 
@@ -64,4 +61,4 @@ This gem is based on the great work of [`better_errors`](https://rubygems.org/ge
 
 ## Copyright
 
-Copyright © 2014 Hanami Team – Released under MIT License
+Copyright © 2014–2024 Hanami Team – Released under MIT License
